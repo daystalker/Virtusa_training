@@ -1,0 +1,16 @@
+package com.virtusa.service;
+public class SimpleLoop {
+
+	public static void main(String[] args) {
+	
+		int array[]= {5,-2,78,-65,41,-52};
+		public int findTotal(int n) {
+			int total=0;
+			if(n>0) {
+				for(int count=0;count<n;count++)
+					if(array[count])>0)
+						total+=array[count];
+		}
+	}
+
+}

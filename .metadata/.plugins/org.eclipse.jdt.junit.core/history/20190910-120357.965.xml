@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestSimpleLoop" project="ArmStrong" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.virtusa.service.TestSimpleLoop" time="0.016" displayname="TestSimpleLoop" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestSimpleLoop]">
+    <testcase name="test_find_total_loopignored" classname="com.virtusa.service.TestSimpleLoop" time="0.01" displayname="test_find_total_loopignored()" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestSimpleLoop]/[method:test_find_total_loopignored()]"/>
+    <testcase name="test_find_total_atLeastOnce" classname="com.virtusa.service.TestSimpleLoop" time="0.006" displayname="test_find_total_atLeastOnce()" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestSimpleLoop]/[method:test_find_total_atLeastOnce()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestFindLargest" project="ArmStrong" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.virtusa.service.TestFindLargest" time="0.019" displayname="TestFindLargest" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestFindLargest]">
+    <testcase name="test_find_Largest_CompleteArray_PlusOne" classname="com.virtusa.service.TestFindLargest" time="0.008" displayname="test_find_Largest_CompleteArray_PlusOne()" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestFindLargest]/[method:test_find_Largest_CompleteArray_PlusOne()]"/>
+    <testcase name="test_find_Largest_moreThan1Number" classname="com.virtusa.service.TestFindLargest" time="0.002" displayname="test_find_Largest_moreThan1Number()" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestFindLargest]/[method:test_find_Largest_moreThan1Number()]"/>
+    <testcase name="test_Largest" classname="com.virtusa.service.TestFindLargest" time="0.002" displayname="test_Largest()" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestFindLargest]/[method:test_Largest()]"/>
+    <testcase name="test_Largest_noElements" classname="com.virtusa.service.TestFindLargest" time="0.001" displayname="test_Largest_noElements()" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestFindLargest]/[method:test_Largest_noElements()]"/>
+    <testcase name="test_Largest_Once" classname="com.virtusa.service.TestFindLargest" time="0.006" displayname="test_Largest_Once()" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestFindLargest]/[method:test_Largest_Once()]"/>
+  </testsuite>
+</testrun>

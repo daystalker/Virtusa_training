@@ -1,0 +1,27 @@
+package com.virtusa.service;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class TestSimpleLoop {
+		private SimpleLoop sim=null;
+	@BeforeEach
+	void setUp() throws Exception {
+		sim= new SimpleLoop();
+	}
+
+	@AfterEach
+	void tearDown() throws Exception {
+		sim=null;
+	}
+
+	@Test
+	void test_find_total_atLeastOnce() {
+		int n=1,actual=sim.findTotal(1),expected=5;
+		assertEquals(actual, expected);
+	}
+
+}

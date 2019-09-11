@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestSimpleLoop" project="ArmStrong" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.virtusa.service.TestSimpleLoop" time="0.022" displayname="TestSimpleLoop" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestSimpleLoop]">
+    <testcase name="test_find_total_atLeastOnce" classname="com.virtusa.service.TestSimpleLoop" time="0.022" displayname="test_find_total_atLeastOnce()" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestSimpleLoop]/[method:test_find_total_atLeastOnce()]"/>
+  </testsuite>
+</testrun>

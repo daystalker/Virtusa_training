@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestFindLargest" project="ArmStrong" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.virtusa.service.TestFindLargest" time="0.015" displayname="TestFindLargest" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestFindLargest]">
+    <testcase name="test_Largest" classname="com.virtusa.service.TestFindLargest" time="0.008" displayname="test_Largest()" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestFindLargest]/[method:test_Largest()]"/>
+    <testcase name="test_Largest_noElements" classname="com.virtusa.service.TestFindLargest" time="0.007" displayname="test_Largest_noElements()" uniqueid="[engine:junit-jupiter]/[class:com.virtusa.service.TestFindLargest]/[method:test_Largest_noElements()]"/>
+  </testsuite>
+</testrun>
