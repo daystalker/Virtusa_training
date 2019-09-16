@@ -1,0 +1,283 @@
+Branch Coverage
+
+In this technique,tets cses are designed so that each branch from all decision points are traversed at least once.
+
+Condition Coverage
+
+In this technique, all individual conditions must be covered as shown in the following example:
+
+READ X,Y
+IF(X==0 || Y==0)
+PRINT'0'
+
+TC1---X=0 || Y==5
+
+TC2--X=55 || Y==0
+
+MULTIPLE CONDITION COVERAGE
+
+TC1--X=0,Y=0
+TC2--X=0,Y=5
+TC3--X=55,Y=0
+TC4--X=55,Y=5
+
+####Basis Path Testing
+
+In this technique, control flow graphs are made from code or flowchart and then acyclomatic complexity is calculated which defines the number
+
+####Flow graph Notation
+
+
+####Cyclomatic Complexity
+
+It is a measure of the logical complexity of the software and is used to define the number of independent paths.For a graph G,v(G) is its cyclomatic complexity.
+
+V(G)=P+1
+V(G)=E-N+1
+
+####Loop Testing
+
+Loops are widely used and these are fundamental to many algorithms hence,
+
+####how to Create Mutant programs?
+
+A mutation is nothing but a single syntactic change that is made to the program statement.Each mutant program should differ from the original program by one mutation.
+
+####Types of Mutation Testing
+
+1)--Statement Mutation
+2)--Value Mutation
+3)--Decision Mutation
+
+#### Mutation Score = (Killed Mutants/total number of Mutants)
+
+####Integration Testing
+
+Top-Down Integration Testing
+Bottom-Up Integration Testing
+Mixed Integration Testing
+
+Advantages
+--> Mixed approach is useful for very large project having several sub projects.
+-->this Sandwich approach overcomes his shortcoming of the top down and bottom-up approaches.
+
+assignments
+
+create an array with atlaest 10 elements find the greatest number in the array.Write the testcases 
+
+write a method to check whether a number is palindrome or not
+
+
+11/09/2019			####Static Testing Technique####
+
+Staic Testing is a type of a software testing method which is performed to check the defects in software without actually executing the code of the software application.
+the errors that cn't not be found 
+
+
+why Static testing?
+-->early defect detection and correction.
+-->reduced development timescales.
+-->reduced testing cost and time.
+-->for improvement of development productivity.
+-->to get fewer defect at a later stage of testing.
+
+
+what is Tested in Static Testing
+
+unit test cases
+business requirements document(brd)
+use cases
+system/funtional requirements
+prototype
+prototype specification document
+DB fields dictionary spreadsheet
+test data
+traceability matrix document
+usermanual/training guides/documentation
+test plan strategy document/test cases
+automation/performance test scripts
+
+
+				Static Testing Techniques
+
+				Static Testing
+
+Review							Static Analysis
+-Informal						-Data flow
+-Walkthrough						-Control flow
+-peer review						-Cyclomatic Complexity
+-inspection
+
+
+
+
+Review:
+In static testing review is a process or technique that is performed to find the potential defects in the design of the software. It is process to detect and remove errors and defects in the different supporting documents like software requirements specifications. People examine the documents and sorted out errors, redundancies and ambiguities.
+Review is of four types:
+
+Informal:
+In informal review the creator of the documents put the contents in front of audience and everyone gives their opinion and thus defects are identified in the early stage.
+
+Walkthrough:
+It is basically performed by experienced person or expert to check the defects so that there might not be problem further in the development or testing phase.
+Peer review:
+Peer review means checking documents of one-another to detect and fix the defects. It is basically done in a team of colleagues.
+
+Inspection:
+Inspection is basically the verification of document the higher authority like the verification of software requirement specifications (SRS).
+
+Who participates in Review?
+
+-->Moderator 
+-->Author
+-->Scribe
+-->Review
+-->Manager
+
+Types of defects which can be easier to find during satic  testing are
+
+-Deviation from standards
+-Non-maintainable code
+-Design defects
+-Missing requirements
+-Inconsistent interface specifications
+
+
+2. Static Analysis:
+Static Analysis includes the evaluation of the code quality that is written by developers. Different tools are used to do the analysis of the code and comparison of the same with the standard.
+
+It also helps in following identification of following defects:
+
+(a) Unused variables
+(b) Dead code
+(c) Infinite loops
+(d) Variable with undefined value
+(e) Wrong syntax 
+
+Static Analysis is of three types:
+
+Data Flow:
+Data flow is related to the stream processing.
+
+Control Flow:
+Control flow is basically how the statements or instructions are executed.
+
+Cyclomatic Complexity:
+Cyclomatic complexity is the measurement of the complexity of the program that is basically related to the number of independent paths in the control flow graph of the program.
+
+Tools used for Static testing
+
+-Parasoft
+-checkstyle
+-IntelliJ IDEA
+-FindBugs
+-Jarchitect
+-Soot
+-Squale
+-threadsafe
+-SourceMeter
+
+
+Tips for Successful Static Testing Process
+
+-Focus only on things that really count
+-Explicitly plan and track review activities. A software walkthrough and inspection are generally composite into peer's reviews
+-Train participants with Examples
+-Resolve people issues
+-Keep process formal as the project culture
+-Continuous Improvement – Process and Tools
+-By removing the major delays in test execution, testing cost and time can be reduced
+
+
+Summary:
+
+-Static testing is to find defects as early as possible.
+-Static testing not a substitute for dynamic testing, both find a different type of defects
+-Reviews are an effective technique for Static Testing
+-Reviews not only help to find defects but also understand missing requirements, design defects, non-maintainable code,
+
+
+
+1.Checkstyle
+2.PMD
+3.FindBugs
+
+
+                                 Defect Management
+
+what is bug?
+
+->A bug is the consequence/outcome of a coding fault.
+
+what is defect?
+
+->A defect is a variation or deviation from the original business requierements.
+
+Defect Management
+
+->Defect management can be defined as a process of detecting bugs and fixing them.
+
+Why to do defect management?
+
+The development team needs a defect management tool so that they can find defect easily and at a vert early stage of process bcz as soon as tyhe defect is detected the cost of fixing it will be low.
+
+if the defect is detected in the later stage of development process then the cost of fixing that defect will be more.
+
+Defect management,records all the defect of the software these records can be sen later as well if you want to review or want
+
+
+Goals of defect Management Process
+
+-Prevent the Defect
+-Early Detection
+-Mini,ize the impact
+-Resolution of the defect
+-process improvement
+
+
+					Defect Management Process
+
+Defect prevention---->Deliverable baseline--->Defect discovery---->defect resolution--->process management
+
+
+
+1.Defect prevention
+
+defect prevention is the best method to eliminate the defects in the early
+
+
+Steps of Defect Prevention
+
+Identify Critical Risks----->Estimate Expected Impact----->Minimize Expected Impact
+
+2.Deliverable Baseline
+
+3. Defect Discovery
+
+Find Defect---->Report Defect---->Acknowledge Defect
+
+4.defect resolution
+
+prioritize Risk---->Schedule Fix---->Fix Defect---->Report Resolution
+
+5.Process Improvement
+
+Management Reporting
+
+-information collected during the defect management process 
+
+
+Bug report template
+
+-Defect_ID
+-Defect Description
+-Version
+-Steps
+	-DateRaised
+	-reference
+	-detected By
+	-Status
+	-Fixed By
+	-Date Closed
+	-Severity
+	-Priority
